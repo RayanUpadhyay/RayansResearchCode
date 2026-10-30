@@ -2,6 +2,8 @@
 
 Code for my paper **[Fairness and Dependency Preservation in Synthetic Credit Data](https://nhsjs.com/2026/fairness-and-dependency-preservation-in-synthetic-credit-data/)**, published in *The National High School Journal of Science* (NHSJS), April 2026. [Read the PDF](https://nhsjs.com/wp-content/uploads/2026/07/Fairness-and-Dependency-Preservation-in-Synthetic-Credit-Data.pdf).
 
+**Expanded version:** new follow-up experiments on the questions the paper left open (not peer reviewed) are in [RayansResearchCodeExpanded](https://github.com/RayanUpadhyay/RayansResearchCodeExpanded).
+
 ## What the study asks
 
 Synthetic data is often used to rebalance datasets before training models, including loan-approval models. But credit features are tangled together: income, age, employment and personal status move with each other, and those links can carry information about protected groups even after sensitive columns are removed. If a synthetic-data method breaks or distorts those links, it can make a model less fair rather than more.
